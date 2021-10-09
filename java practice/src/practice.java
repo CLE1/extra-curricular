@@ -41,4 +41,13 @@ public class practice {
             return (n - 21) * 2;
         }
     }
+
+    public boolean parrotTrouble(boolean talking, int hour) {
+        return (talking && (hour < 7 || hour > 20));
+
+    }
+
+    public boolean makes10(int a, int b) {
+        return (a == 10 || b == 10 || a+b == 10);
+    }
 }
